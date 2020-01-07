@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/his-starter-common/his-starter-common.iml" filepath="$PROJECT_DIR$/his-starter-common/his-starter-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-starter-core/his-starter-core.iml" filepath="$PROJECT_DIR$/his-starter-core/his-starter-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-starter-eureka/his-starter-eureka.iml" filepath="$PROJECT_DIR$/his-starter-eureka/his-starter-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-starter-gateway/his-starter-gateway.iml" filepath="$PROJECT_DIR$/his-starter-gateway/his-starter-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-starter-security/his-starter-security.iml" filepath="$PROJECT_DIR$/his-starter-security/his-starter-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>

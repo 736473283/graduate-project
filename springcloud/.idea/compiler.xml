@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="his-starter-common" />
+        <module name="his-starter-core" />
+        <module name="his-starter-eureka" />
+        <module name="his-starter-gateway" />
+        <module name="his-starter-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="his-starter-cache" target="1.8" />
+      <module name="his-starter-common" target="1.8" />
+      <module name="his-starter-core" target="1.8" />
+      <module name="his-starter-eureka" target="1.8" />
+      <module name="his-starter-gateway" target="1.8" />
+      <module name="his-starter-security" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="his-starter-cache" options="-parameters" />
+      <module name="his-starter-common" options="-parameters" />
+      <module name="his-starter-core" options="-parameters" />
+      <module name="his-starter-eureka" options="-parameters" />
+      <module name="his-starter-gateway" options="-parameters" />
+      <module name="his-starter-security" options="-parameters" />
+      <module name="springcloud" options="-parameters" />
+    </option>
+  </component>
+</project>
